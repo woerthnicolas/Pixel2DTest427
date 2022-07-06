@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Pixel2DTest427",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"Pixel2D",
+				"UMG"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Pixel2D",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/974da5852e8f433fbbfc4bf4d8ecc77b"
+		},
+		{
+			"Name": "FSR",
+			"Enabled": false
+		}
+	]
+}
